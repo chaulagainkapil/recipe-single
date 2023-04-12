@@ -1,0 +1,44 @@
+main {
+  padding-top: 40px;
+  .mainbox {
+    &__image {
+      padding-bottom: 40px;
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        border-radius: 30px;
+      }
+    }
+    &__text {
+      &--recipe {
+        &--ingredients {
+          h2 {
+            font-family: $font__play;
+            font-size: 24px;
+            font-weight: $font__bold;
+            padding-bottom: 20px;
+          }
+          &--graham {
+            padding-bottom: 20px;
+            h3 {
+              font-family: $font__play;
+              font-weight: $font__regular;
+              font-size: 18px;
+              padding-bottom: 20px;
+            }
+          }
+          &--cheese {
+            padding-bottom: 20px;
+            h3 {
+              font-family: $font__play;
+              font-weight: $font__regular;
+              font-size: 18px;
+              padding-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
